@@ -46,6 +46,7 @@ npx expo start
 npx expo install react-native-reanimated tailwindcss
 npx expo install nativewind@4
 ```
+Fonte das Configurações: https://www.nativewind.dev/getting-started/expo-router
 
 
 

@@ -1,6 +1,9 @@
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { Drawer } from "expo-router/drawer";
-import '../global.css'
+
+// Import your global CSS file
+import "../global.css";
+
 
 export default function RootLayout(){
 
