@@ -3,7 +3,7 @@
 </p>
 <h1 align="center"> Criação de interface</h1>
 
-<p align="center">Este projeto foi desenvolvido para praticar e consolidar os conhecimentos em React Native.</p>
+<p align="center">Este projeto foi desenvolvido para praticar e consolidar os conhecimentos em React Native,e aplicar novas formas de desenvolver as interfaces, com Tailwind por exemplo.</p>
 
 <br>
 🚀 Desenvolvedora:
@@ -15,7 +15,8 @@ Tayse Rosa
 
 ---
 <p align="center">
-  <img src="readme_img.jpeg" width="250">
+  <img src="readme1.jpeg" width="250">
+  <img src="readme2.jpeg" width="250">
 </p>
 
 
