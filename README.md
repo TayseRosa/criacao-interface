@@ -11,7 +11,7 @@
 Tayse Rosa
 </a>
 <br>
-🟢 Status do projeto: Iniciando..
+🟡 Status do projeto: Iniciando..
 
 ---
 <p align="center">
@@ -25,6 +25,11 @@ Tayse Rosa
     <li>Expo</li>
     <li>Typescript</li>
     <li>NativeWind </li>
+    <li>ChakraUI </li>
+    <li>NativeWindUI </li>
+    <li>MaterialUI </li>
+    <li>AntDesign </li>
+    <li>React native Paper </li>
 </ul>
 
 
@@ -37,8 +42,10 @@ npx expo start
 ```
 
 ## 🚀 Anotações importantes
-
-
+```
+npx expo install react-native-reanimated tailwindcss
+npx expo install nativewind@4
+```
 
 
 

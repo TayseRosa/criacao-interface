@@ -9,7 +9,7 @@ export default function Screen(){
                 title:'Início',
                 headerRight:()=><Button title="Add" />
             }} />
-            <Text className="text-3xl text-red-500">Tela inicial</Text>
+            <Text>Tela About</Text>
         </View>
     )
 }

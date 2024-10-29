@@ -1,5 +1,6 @@
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { Drawer } from "expo-router/drawer";
+import '../global.css'
 
 export default function RootLayout(){
 
@@ -9,6 +10,11 @@ export default function RootLayout(){
                 <Drawer.Screen 
                     name="index"
                     options={{drawerLabel:'Inicio', headerTitle:'Home'}}
+                />
+
+                <Drawer.Screen 
+                    name="about"
+                    options={{drawerLabel:'About', headerTitle:'About'}}
                 />
             </Drawer>
             
