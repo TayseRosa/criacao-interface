@@ -12,7 +12,7 @@ export default function RootLayout(){
             <Drawer>
                 <Drawer.Screen 
                     name="index"
-                    options={{drawerLabel:'Inicio', headerTitle:'Home'}}
+                    options={{drawerLabel:'Inicio', headerTitle:'Home', headerShown:false}}
                 />
 
                 <Drawer.Screen 

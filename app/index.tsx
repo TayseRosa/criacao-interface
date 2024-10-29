@@ -1,51 +1,17 @@
-import { Stack } from "expo-router";
-import { useColorScheme } from "nativewind";
-import { Button, Pressable, StyleSheet, Text, View } from "react-native";
-import { TextInput } from "react-native-gesture-handler";
+import { View, Text } from 'react-native'
+import { Logo } from '../components/Logo';
+import { CustomButton } from '../components/CustomButton';
 
-export default function Screen(){    
-    const { colorScheme, setColorScheme } = useColorScheme();
 
+export default function Screen(){
     return(
-        <View style={styles.container} className="h-min-screen bg-slate-200 dark:bg-black">
-            <Stack.Screen options={{
-                title:'Início',
-                headerRight:()=><Button title="Add" />
-            }} />
+        <View className='h-screen bg-blue-700 justify-center items-center'>
+            <Logo />
 
-
-            <Text className="text-3xl text-black dark:text-white"> Titulo </Text>
-            <Text className="text-xl text-black dark:text-white"> Scheme: { colorScheme } </Text>
-
-            <Button title="Dark" onPress={()=>setColorScheme('dark')} />
-            <Button title="Light" onPress={()=>setColorScheme('light')} />
-            <Button title="System" onPress={()=>setColorScheme('system')} />
-
-            <TextInput className="h-11 bg-red-300" />
+            <View className='w-full px-5 mt-20'>
+                <CustomButton label='Cadastre-se' onPress={()=>{}} />
+                <CustomButton label='Faça login' onPress={()=>{}}  />
+            </View>
         </View>
-    )
+    );
 }
-
-const styles= StyleSheet.create({
-    container:{
-        flex:1,
-        justifyContent:'center',
-        alignItems: 'center',
-    },
-    button:{
-        width:200,
-        height:40,
-        justifyContent:'center',
-        alignItems:'center',
-        backgroundColor:'#643a3a',
-        borderRadius:6
-    },
-    button2:{
-        width:200,
-        height:40,
-        justifyContent:'center',
-        alignItems:'center',
-        backgroundColor:'#661b1b',
-        borderRadius:6
-    }
-})
